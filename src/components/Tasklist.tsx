@@ -5,7 +5,7 @@ import { MdDelete } from "react-icons/md";
 type TaskProps = {
     task: string,
     onDelete:()=>void,
-    onEdit:()=>void
+    onEdit:()=>void,
 }
 
 function Tasklist({task,onDelete,onEdit}:TaskProps) {
